@@ -1,0 +1,35 @@
+{
+  "name": "open-source-template",
+  "version": "0.0.1",
+  "description": "A template for f/e open source projects (really more aimed towards JS)",
+  "main": "lib",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+    "babel-core": "^4.7.16",
+    "babel-loader": "^4.3.0",
+    "prompt": "^0.2.14",
+    "webpack": "^1.7.3"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-global": "scripts/build-global",
+    "build-npm": "scripts/build-npm"
+  },
+  "author": "Chris Pearce",
+  "license": "MIT",
+  "keywords": [
+    "open",
+    "template",
+    "starter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisui/open-source-template.git"
+  },
+  "homepage": "https://github.com/chrisui/open-source-template",
+  "bugs": "https://github.com/chrisui/open-source-template/issues",
+  "globalExport": "OS"
+}
