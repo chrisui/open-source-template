@@ -13,10 +13,7 @@ var plugins = [
   })
 ];
 
-console.log(COMPRESS, ENV, process.env);
-
 if (COMPRESS) {
-  console.log('COMPRESSING!!!');
   plugins.push(
     new webpack.optimize.UglifyJsPlugin({
       compressor: {warnings: false}
