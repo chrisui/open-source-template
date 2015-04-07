@@ -1,8 +1,11 @@
+Run `scripts/configure` when you first clone this repo.
+=======================================================
+
 Open Source Template
 --------------------
-A simple open source project template geared towards f/e open source projects! You will want to update this readme for your own project.
+[![Join the chat at https://gitter.im/Chrisui/PROJECT](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Chrisui/PROJECT?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Run `scripts/configure` when you first clone this repo.
+A simple open source project template geared towards f/e open source projects! You will want to update this readme for your own project.
 
 Overview
 --------
@@ -20,6 +23,8 @@ Install
 npm install project
 ```
 
+or use the old-skool [UMD](http://bob.yexley.net/umd-javascript-that-runs-anywhere/) packaged library found in [/build/global](build/global).
+
 Basic Usage
 -----------
 ```
@@ -30,12 +35,17 @@ import Project from  'project';
 Documentation
 -------------
 The [Getting Started](docs/getting-started.md) guide is probably a good first point of call!
-  
+
 You can find full docs in the [/docs](docs) folder and generated api docs in [/docs/api](docs/api).
+
+You may also find various helpful example projects in the [/examples](examples) folder.
 
 Support
 -------
-Information and links on how best to find support for the project to go here.
+- Get in touch on the [Gitter]() room
+- Submit an issue here on GitHub
+
+More information and links on how best to find support for the project to go here.
 
 Contribute
 ----------
@@ -59,4 +69,4 @@ Any special thanks or credits can go here.
 
 License
 -------
-MIT
+[MIT](LICENSE.md)

@@ -13,17 +13,19 @@
     "webpack": "^1.7.3"
   },
   "dependencies": {},
+  "peerDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-global": "scripts/build-global",
     "build-npm": "scripts/build-npm"
   },
-  "author": "Chris Pearce",
+  "author": "Chris Pearce <hello@chrispearce.me> (chrispearce.co)",
   "license": "MIT",
   "keywords": [
     "open",
     "template",
-    "starter"
+    "starter",
+    "javascript"
   ],
   "repository": {
     "type": "git",
